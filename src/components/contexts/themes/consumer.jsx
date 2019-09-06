@@ -11,7 +11,7 @@ function ThemesConsumer({ render }) {
                     return render(props);
                 }
                 return (
-                    <DefaultConsumer {...props} />
+                    <DefaultConsumer {...props} /> // eslint-disable-line
                 );
             }}
         </Consumer>

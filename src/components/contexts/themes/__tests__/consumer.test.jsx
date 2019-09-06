@@ -20,7 +20,7 @@ describe('theme consumer', () => {
             <Consumer render={(props) => {
                 const { toggleTheme } = props;
                 toggleTheme();
-                return (<DefaultConsumer {...props} />);
+                return (<DefaultConsumer {...props} />); // eslint-disable-line
             }}
             />
         );

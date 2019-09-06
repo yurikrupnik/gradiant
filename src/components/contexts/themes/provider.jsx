@@ -14,7 +14,7 @@ class ThemesProvider extends Component {
     }
 
     toggleTheme() {
-        this.setState(state => ({
+        this.setState((state) => ({
             theme:
                 state.theme === themes.dark
                     ? themes.light

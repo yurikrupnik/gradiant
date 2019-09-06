@@ -5,7 +5,7 @@ const DefaultConsumer = (props) => {
     const { theme, toggleTheme } = props;
     return (
         <div>
-            <button type="button" style={{ background: theme.background }} onClick={toggleTheme}>
+            <button type="button" style={{ background: theme.background }} onClick={toggleTheme}> {/* eslint-disable-line */}
                 Toggle
             </button>
         </div>

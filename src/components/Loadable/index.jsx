@@ -57,7 +57,7 @@ Loading.propTypes = {
 };
 
 export default function (opts) {
-    return Loadable(Object.assign({
+    return Loadable(Object.assign({ // eslint-disable-line
         loading: Loading,
         // delay: 200,
         // timeout: 10,
